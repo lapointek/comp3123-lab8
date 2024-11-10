@@ -65,9 +65,10 @@ function App() {
           <option value="british columbia">British Columbia</option>
         </select>
 
-        <label>
-          <input type="checkbox" name="terms" checked={formData.terms} onChange={handleChange} /> Agree Terms & Condition?
-        </label>
+        
+        <input type="checkbox" name="terms" checked={formData.terms} onChange={handleChange} /> Agree to Terms and Conditions?
+        
+          
 
         <button type="submit">Submit</button>
       </form>
